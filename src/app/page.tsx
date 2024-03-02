@@ -1,5 +1,9 @@
+
 import HomePage from "@/components/HomePage";
+import Main from "@/components/Main";
+
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
   return (
@@ -112,8 +116,10 @@ export default function Home() {
     // </main>
 
     <>
-      <div>
-       <HomePage/>
+      <div className=" w-full">
+       {/* <HomePage/> */}
+       <Main />
+       
       </div>
     </>
   );
